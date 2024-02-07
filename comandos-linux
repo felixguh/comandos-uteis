@@ -6,7 +6,10 @@ Comando: scp secm_db_backup.sql centos@192.168.1.113:/home/centos
 
  Comando: scp centos@192.168.1.113:secm_db_backup.sql /home/centos
 
+## Compactar arquivo TAR
 
+ Comando: tar -cvf sampleArchive.tar /home/sampleArchive
 
+## Descompactar arquivo TAR
 
-
+ Comando: tar -xvf sampleArchive.tar
