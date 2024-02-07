@@ -1,0 +1,7 @@
+## Fazer backup de um banco especifíco + trigger + Functions ##
+
+Comando: mysqldump --routines --triggers -h 127.0.0.1 -u root -p secmdb > secm_db_backup.sql
+
+## Fazer backup de todos os bancos + triggers + Functions ##
+
+Comando: mysqldump --routines --triggers -h 127.0.0.1 -u root -p --all-databases > backup-completo.sql
